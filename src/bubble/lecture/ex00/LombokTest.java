@@ -1,4 +1,4 @@
-package bubble.test.ex00;
+package bubble.lecture.ex00;
 
 import lombok.Data;
 

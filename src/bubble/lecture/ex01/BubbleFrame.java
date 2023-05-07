@@ -1,7 +1,6 @@
-package bubble.test.ex01;
+package bubble.lecture.ex01;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class BubbleFrame extends JFrame {
 

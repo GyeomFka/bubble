@@ -1,8 +1,6 @@
-package bubble.test.ex03;
+package bubble.lecture.ex02;
 
 import javax.swing.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
 public class BubbleFrame extends JFrame {
 
@@ -13,29 +11,7 @@ public class BubbleFrame extends JFrame {
     public BubbleFrame() {
         initObject();
         initSetting();
-        initListener();
         setVisible(true);
-    }
-
-    private void initListener() {
-        addKeyListener(new KeyAdapter() {
-
-            @Override
-            public void keyPressed(KeyEvent e) {
-                System.out.println(e.getKeyCode());
-                switch (e.getKeyCode()) {
-                    case KeyEvent.VK_LEFT:
-                        player.left();
-                        break;
-                    case KeyEvent.VK_RIGHT:
-                        player.right();
-                        break;
-                    case KeyEvent.VK_UP:
-                        player.up();
-                        break;
-                }
-            }
-        });
     }
 
     private void initObject() {

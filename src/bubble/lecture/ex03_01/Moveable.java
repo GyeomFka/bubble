@@ -1,4 +1,4 @@
-package bubble.test.ex03;
+package bubble.lecture.ex03_01;
 
 public interface Moveable {
 
